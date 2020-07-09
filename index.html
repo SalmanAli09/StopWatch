@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<style>
+    body{
+        background-image: url(https://image.freepik.com/free-photo/male-hand-starts-analog-stopwatch-black-background_94132-6.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+        margin-left: 15px;
+    }
+     
+    h1{
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    h2{
+        color: white;
+        display: inline-block;
+        width: 100px;
+    }
+    h3{
+        color: white;
+        border-radius: 10px;
+    }
+ 
+</style>
+<body>
+     <div class="heading1"><h3><u><b>STOP WATCH</b></u></h3></div>
+    
+  <div class="heading2">
+    <h2 id="min"> 0</h2>
+    <h2 id="sec"> 0</h2>
+    <h2 id="msec">0</h2>
+</div>
+<div class="heading3">
+    <button class="btn1" id="button1" onclick="start()" ><h1>START</h1>     <i class="fa fa-play" aria-hidden="true" style="font-size:48px;"></i></button>
+    <button  class="btn2" onclick="stop()"><h1>STOP</h1>   <i class="fa fa-stop" aria-hidden="true" style="font-size:48px;"></i></button>
+    <button  class="btn3" onclick="reset()"><h1>RESET</h1>    <i class="fa fa-repeat" aria-hidden="true" style="font-size:48px;"></i> </button>
+</div>
+<div class="info">
+    <p>MUHAMMAD SALMAN ALI</p>
+    <p> WM- 8220</p>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
